@@ -1,0 +1,7 @@
+$ pip install virtualenv
+$ virtualenv ~/virtualenvs/pelican
+$ cd ~/virtualenvs/pelican
+$ . bin/activate
+
+$ pip install --pre pytz
+$ pip install pelican
