@@ -29,3 +29,6 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Themes
+GITHUB_URL = "https://github.com/zeta709"
