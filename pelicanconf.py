@@ -6,7 +6,9 @@ AUTHOR = u'zeta709'
 SITENAME = u'zeta709'
 SITEURL = ''
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Asia/Seoul'
+DEFAULT_DATE_FORMAT = ('%Y-%m-%d')
+DEFAULT_DATE = 'fs'
 
 DEFAULT_LANG = u'ko'
 
