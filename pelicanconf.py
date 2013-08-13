@@ -34,3 +34,7 @@ DEFAULT_PAGINATION = 10
 
 # Themes
 GITHUB_URL = "https://github.com/zeta709"
+
+PLUGINS = [
+    'pelican_gist',
+]
