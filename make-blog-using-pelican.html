@@ -70,9 +70,8 @@ Repository를 처음 생성했을 때는 페이지가 나타나기까지 시간�
 Project Pages는 gh-pages 브랜치의 내용을 사용하지만 User Pages는 master 브랜치의 내용을 사용한다.
 만들고 싶은 것이 User Pages라면 이에 맞게 Makefile을 약간 수정하는 것이 좋을 것 같다.</p>
 <div class="highlight"><pre><span class="nf">github</span><span class="o">:</span> <span class="m">publish</span>
-    git checkout master
     ghp-import -b master <span class="k">$(</span>OUTPUTDIR<span class="k">)</span>
-    git push origin master
+    git push --all
 </pre></div>
 
 
