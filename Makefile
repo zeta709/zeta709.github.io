@@ -82,6 +82,7 @@ s3_upload: publish
 	s3cmd sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl-public --delete-removed
 
 github: publish
+	git checkout master
 	ghp-import -b master $(OUTPUTDIR)
 	git push origin master
 
